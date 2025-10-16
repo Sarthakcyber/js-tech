@@ -17,3 +17,31 @@ symbol ->  unique
 */
 
 console.log(typeof is_logged)
+
+
+
+let score = "33abc"
+
+console.log(typeof score);
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+console.log(valueInNumber)
+
+
+/*
+"33" -> 33
+"33abc" -> NaN  (NOT A NUMBER)
+true = 1 ; false = 0;
+
+*/
+
+let loggedin = 1
+let booleanloggedin = Boolean(is_logged)
+console.log(booleanloggedin)
+
+/*
+1 -> true ; 0 -> false
+// "" -> false 
+"Sarthak" --> true
+*/
