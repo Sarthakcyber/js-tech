@@ -11,7 +11,7 @@ number -> 2 to power 53
 bigint 
 string -> ""
 boolean -> True/False
-null -> standalone value // if no value recived then null // null is an object 
+null -> standalone value // if no value recived then null // null is an object // interview question
 undefined -> no value assigned // is a data type
 symbol ->  unique 
 */
