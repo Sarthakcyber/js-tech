@@ -48,5 +48,33 @@ console.log(myn2);
 // while splice() modifies the original array by removing, replacing, or adding elements. */
 
 
+const marvel_heros = ["thor", "Iron man" , "captian marvel" , "doctor strange" , "Ant-man"]
+const dc_heros =  ["superman" , "flash" , "wonderwomen" , "aquaman" , "silver_surfer"]
+
+marvel_heros.push(dc_heros)
+
+console.log(marvel_heros);
+console.log(marvel_heros[5][1]); // 5th index and 1 st element of new dc arr because after push it becomes the new object
 
 
+const allheros = marvel_heros.concat(dc_heros)
+console.log(allheros);
+
+const allnewheros = [...marvel_heros, ...dc_heros] // spreads the arrays by dots (.)
+console.log(allnewheros);
+
+const any_arr = [1,2,3, [4,5,6] , 7, [6,7,[8,9,0]]]
+
+const real_another_array = any_arr.flat(Infinity) //Returns a new array with all sub-array elements concatenated into it recursive up to the specified depth.
+//flat() seperate the array elements within in it we can give the range or limit to it also  
+console.log(real_another_array);
+
+console.log(Array.isArray("Sarthak"))// is Array is used to check whether it is array or not 
+console.log(Array.from("Sarthak")) // from is used to convert in array
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+let score4 = 400
+
+console.log(Array.of(score1, score2, score3 , score4)); //of --> Returns a new array from a set of elements.
